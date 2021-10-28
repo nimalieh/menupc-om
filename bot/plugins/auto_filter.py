@@ -134,7 +134,7 @@ async def auto_filter(bot, update):
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f" 📚Page 1/{len_result if len_result < max_pages else max_pages} ", callback_data="ignore")
         ])
         
         
@@ -184,7 +184,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"**මෙන්න ඔයා හොයපු 👉 {query} \n\n @BOTS_Infinity **" ,
+                text=f"**🥳  ඔයා හොයන {query} මගෙ Data Base එකේ තියනව.\n\n⭕️පහල Button Click  කරල ඩවුන්ලොඩ් කර ගන්න  👇\n-බයිස්කෝප් ලින්ක්ස්  BY Ⓜ️ENUPC.COM- **" ,
                 reply_markup=reply_markup,
                 parse_mode="markdown",
                 reply_to_message_id=update.message_id
