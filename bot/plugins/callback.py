@@ -52,7 +52,7 @@ async def cb_navg(bot, update: CallbackQuery):
         VERIFY[str(chat_id)] = admin_list
     
     if not ((user_id == ruser_id) or (user_id in admin_list)): # Checks if user is same as requested user or is admin
-        await update.answer("ආව් ආව් 😂 ඒක ඔයාගෙ request එකක් නෙමේ නෙ 😂😂",show_alert=True)
+        await update.answer("😂මේක  ඔයාට දැම්ම මැසෙජ් එකක් නෙවෙයි.‼️‼️‼️/n😂ඔයාට ඕනනම් ඒ මැසෙජ් එක ගෘප් එකට දාන්න ‼/n/n-බයිස්කෝප් ලින්ක්ස්  BY Ⓜ️ENUPC.COM-",show_alert=True)
         return
 
 
@@ -95,7 +95,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"🔰 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f" 📚Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} ", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
@@ -143,7 +143,7 @@ async def cb_navg(bot, update: CallbackQuery):
     reply_markup = InlineKeyboardMarkup(temp_results)
 
 
-    text=f"**මෙන්න ඔයා හොයපු 👉 {query}                       @BOTS_Infinity**" ,
+    text=f"**🥳  ඔයා හොයන {query} මගෙ Data Base එකේ තියනව.\n\n⭕️පහල Button Click  කරල ඩවුන්ලොඩ් කර ගන්න  👇\n-බයිස්කෝප් ලින්ක්ස්  BY Ⓜ️ENUPC.COM-**" ,
         
     try:
         await update.message.edit(
