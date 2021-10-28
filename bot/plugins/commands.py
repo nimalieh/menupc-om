@@ -39,7 +39,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '📫 SUPPORT', url="https://t.me/BOTS_Infinity"
+                                    '😂JOIN OUR Ⓜ️OVIE GROUP 😂', url="https://t.me/baiscopelinks"
                                 )
                         ]
                     ]
@@ -58,7 +58,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '📫 SUPPORT', url="https://t.me/BOTS_Infinity"
+                                    '😂JOIN OUR Ⓜ️OVIE GROUP 😂', url="https://t.me/baiscopelinks"
                                 )
                         ]
                     ]
